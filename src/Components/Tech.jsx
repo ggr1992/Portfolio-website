@@ -12,7 +12,7 @@ function Tech () {
 return (
     <>
     <div className='Tech-container'>
-    <h2 className='Heading2'>Technial Skills</h2>
+    <h2 className='Heading2'>Technical Skills</h2>
     <p>I have a varying amount of experience with the following Techs.</p>
     <img  src={javaScriptLogo} alt="My Image" className='Logo'/>
     <img  src={nodeAndExpress} alt="My Image" className='Logo'/>
