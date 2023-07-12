@@ -173,3 +173,8 @@ h1 {
 .back-to-top-button:focus {
   outline: none;
 }
+
+.imageToDo {
+  height: 740px;
+  width: 360
+}
