@@ -1,0 +1,42 @@
+.Projects {
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  .Projects h2 {
+    font-size: 2rem;
+  font-weight: bold;
+  color: #fffdfd; 
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #dacdcdba; 
+  padding-bottom: 0.3rem;
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+  }
+  
+  .Projects p {
+    font-size: 1.2rem;
+  color: #ffffff; 
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  }
+  
+  .Projects a {
+    color: #18c53e;
+    text-decoration: none;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: large;
+
+  }
+  
+  .Projects a:hover {
+    color: rgb(93, 154, 154);
+  }

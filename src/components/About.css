@@ -1,0 +1,60 @@
+.about {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .section-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ffffffba;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .App-link {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .about a {
+    color: #0adc38;
+    text-decoration: none;
+    margin-right: auto;
+    display: inline-block;
+    font-size: larger;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    
+  }
+  
+  .about a:hover {
+    color: rgba(162, 230, 223, 0.717);
+  }
+
+  .contact {
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .contact a {
+    color: #0adc38;
+  }
+  
+  .contact a:hover {
+    color: rgba(162, 230, 223, 0.717);
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    
+  }

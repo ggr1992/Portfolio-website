@@ -1,0 +1,78 @@
+.Carousel-container {
+    max-width: 80%; 
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ffffffba;
+  }
+  
+  .Logo {
+    width: 250px; 
+    height: 200px; 
+    border: rgba(255, 255, 255, 0.847) solid 1px;
+    text-align: center;
+    
+  }
+  .Tech-description {
+    padding-top: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  color: #f9f8f8;
+}
+  
+  .slick-slide img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .slick-prev,
+.slick-next {
+  font-size: 30px; 
+  line-height: 1;
+}
+
+.slick-prev {
+  left: -20px; 
+}
+
+.slick-next {
+  right: -20px; 
+}
+
+.slick-dots li button {
+  font-size: 0; 
+}
+
+.slick-dots li button:before {
+  color: #aaa; 
+  font-size: 12px; 
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 39%;
+  transform: translateY(-70%);
+  background-color: rgba(23, 50, 220, 0.587);
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.prev-arrow {
+  left: -40px; 
+}
+
+.next-arrow {
+  right: -40px; 
+}
+  
