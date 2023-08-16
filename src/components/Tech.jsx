@@ -78,11 +78,11 @@ function Tech() {
   ];
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
-    slidesToShow: 5,
-    slidesToScroll: 3,
+    slidesToShow: window.innerWidth >= 768 ? 5 : 1, 
+    slidesToScroll: window.innerWidth >= 768 ? 3 : 1, 
     prevArrow: <CustomPrevArrow />, 
     nextArrow: <CustomNextArrow />,
   };

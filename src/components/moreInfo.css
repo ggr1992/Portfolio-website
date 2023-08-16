@@ -13,9 +13,36 @@
 }
 
 .Media-wrapper {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  border-bottom: 1px solid #ffffff;
+  margin: 0 auto;
+}
+
+/* Media query for phones */
+@media (max-width: 768px) {
+  .Media-wrapper {
+    display: block;
+    text-align: center; /* Keep text centered */
+    margin: 20px auto;
+  }
+  
+  .Centered-video {
+    display: none; /* Hide centered video on phone */
+  }
+  
+  .Media {
+    width: 100%; /* Make images and videos full width on phone */
+    height: auto;
+  }
+  .Media-description {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #f8f8f8;
+    
+  }
 }
 
 .Media {
@@ -28,28 +55,29 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 600px;
-  
+  height: 100%; /* Change height to 100% */
 }
 
 
 .Media-description {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 14px;
   color: #f8f8f8;
   
 }
 
 .fold-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #141414;
+	background: #ffffff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+.fold-button:hover{
+	cursor: pointer;
 }
 
 .Carousel-container {
@@ -88,12 +116,13 @@
   position: absolute;
   top: 39%;
   transform: translateY(-70%);
-  background-color: rgba(23, 50, 220, 0.587);
+  background-color: rgba(11, 21, 88, 0.587);
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   padding: 5px 10px;
+  border-radius: 50%;
 }
 
 .prev-arrow {

@@ -9,7 +9,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-bottom: 1px solid #ffffffba;
   }
   
@@ -29,14 +29,13 @@
     margin-right: auto;
     display: inline-block;
     font-size: larger;
-    margin-right: 30px;
     padding-bottom: 10px;
     margin-top: 15px;
     
   }
   
   .about a:hover {
-    color: rgba(162, 230, 223, 0.717);
+    color: rgb(255, 255, 255);
   }
 
   .contact {

@@ -68,6 +68,7 @@ function MoreInfoCalculator() {
     nextArrow: <CustomNextArrow />,
   };
 
+
   return (
     <div className="MoreInfo-container">
       <button className="fold-button" onClick={toggleCarousel}>

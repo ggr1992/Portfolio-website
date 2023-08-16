@@ -2,6 +2,7 @@
     padding: 20px;
     color: white;
     text-align: center;
+    justify-content: center;
   }
   .Projects h2 {
     font-size: 2rem;
@@ -9,6 +10,7 @@
   color: #fffdfd; 
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #dacdcdba; 
+  padding-top: 0.4rem;
   padding-bottom: 0.3rem;
   }
   
@@ -19,24 +21,25 @@
     margin-bottom: 1rem;
     padding-bottom: 20px;
   }
-  
+ 
   .Projects p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   color: #ffffff; 
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   }
   
   .Projects a {
-    color: #18c53e;
+    color: #0adc38;
     text-decoration: none;
-    margin-right: 10px;
-    display: block;
-    margin-bottom: 10px;
-    font-size: large;
+    margin-right: auto;
+    display: inline-block;
+    font-size: larger;
+    padding-bottom: 10px;
+    margin-top: 15px;
 
   }
   
   .Projects a:hover {
-    color: rgb(93, 154, 154);
+    color: rgb(255, 255, 255);
   }

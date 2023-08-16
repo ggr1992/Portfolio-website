@@ -27,22 +27,22 @@ function MoreInfoFrontEnd() {
     media: image,
     alt: "Image of a to do list",
     description:
-      "This is the home page from here you can view the amount of comments a board game has aswell as click on the name of a board game to navigate to a page displaying the information about that given board game.",
+      "This is the homepage where you can see the comments for each board game and click on a game's name to view more details about it.",
    },
    {
-    type: "image",
-    media: comment,
-    alt: "Image of a to do list",
-    description:
-      "There were some blockers for this project as it was the first time I had used axios to fetch data from an API and I was trying also trying to improve my CSS skills during this project. I am still working on the aspects of this project so expect more to be added in the near future",
-   },
-   {
-    type: "image",
-    media: review,
-    alt: "Image of a to do list",
-    description:
-      "This is the page for a review for an individual board game here you can view information such as when this post was created and the author of the post you can also vote on this review and scroll down or press the button at the top of the page to view comments related to this review",
-   },
+     type: "image",
+     media: review,
+     alt: "Image of a to do list",
+     description:
+     "This page is dedicated to reviews for specific board games. Here, you can see details like the post's creation date and author. You also have the option to vote on the review and scroll down or use the button at the top to see related comments.",
+    },
+    {
+     type: "image",
+     media: comment,
+     alt: "Image of a to do list",
+     description:
+       "I encountered challenges while working on this project, especially when using axios to fetch data from an API for the first time. Additionally, I aimed to enhance my CSS skills during the development. I'm still working on refining certain aspects of the project, and I'm planning to make further improvements soon.",
+    },
   ];
 
   const [isCarouselFolded, setIsCarouselFolded] = useState(true);
