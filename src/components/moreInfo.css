@@ -4,13 +4,6 @@
   align-items: center;
 }
 
-.fold-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 10px;
-  cursor: pointer;
-}
 
 .Media-wrapper {
   display: flex;
@@ -48,6 +41,7 @@
 .Media {
   max-width: 550px;
   max-height: 600px;
+  padding-bottom: 20px;
 }
 
 .Centered-video {
@@ -123,6 +117,7 @@
   cursor: pointer;
   padding: 5px 10px;
   border-radius: 50%;
+  border: white solid 2px;
 }
 
 .prev-arrow {

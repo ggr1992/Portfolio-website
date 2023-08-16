@@ -8,11 +8,14 @@ function Calculator () {
         <>
         <div className="Text-container">
         <h2 className="Heading2">Calculator App</h2>
-        <p>This Calculator was made using React, This interactive web app provides users with a smooth experience to easily perform various arithmetic operations. By featuring this project, I demonstrate my capability to create functional and user-centric applications, highlighting my expertise in front-end development and attention to detail when dealing with edge cases  ensuring a comprehensive user experience </p>
+        <p>This Calculator was made using React, This interactive web app provides users with a smooth experience to easily perform various arithmetic operations. By featuring this project, I demonstrate my capability to create functional and user-centric applications, highlighting my expertise in front-end development and attention to detail when dealing with edge cases  ensuring a comprehensive user experience. </p>
 
         <a href="https://github.com/ggr1992/MyCalculator" target="_blank" rel="noopener noreferrer">
         View the Repo Here.
       </a>
+      <a href="https://ggr1992.github.io/MyCalculator/" target="_blank" rel="noopener noreferrer">
+  <button className="try-button">Try it out here!</button>
+</a>
         </div>
         <MoreInfoCalculator/>
         </>

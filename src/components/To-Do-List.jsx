@@ -10,7 +10,7 @@ function ToDoListApp() {
           This To-Do-List app is an app intended for mobile it was a small
           project I have worked on it was created using React Native and Expo on
           this app you can add tasks that you want to do today and delete them
-          once completed{" "}
+          once completed.
         </p>
 
         <a

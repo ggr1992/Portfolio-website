@@ -2,7 +2,7 @@ body {
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
-  background: linear-gradient(290deg, rgb(13, 6, 44)3%, rgb(2, 23, 27) 25%, rgb(3, 21, 35) 68%, rgb(18, 3, 46) 98%);
+  background: linear-gradient(290deg, rgb(25, 11, 87)3%, rgb(3, 37, 44) 25%, rgb(4, 28, 47) 68%, rgb(23, 4, 57) 98%);
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: gradient 25s ease infinite;
@@ -39,12 +39,14 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
- background-color:#0c083a61;
+  background-color: #176ab8a8;
  color: white;
  position: fixed;
   top: 30px;
   left: 16px; 
-  
+  font-size: 20px;
+  border-color: aliceblue;
+  border-width: 2px;
  }
   .moving-button {
     position: fixed;

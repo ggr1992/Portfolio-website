@@ -10,7 +10,6 @@
   color: #fffdfd; 
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #dacdcdba; 
-  padding-top: 0.4rem;
   padding-bottom: 0.3rem;
   }
   
@@ -32,10 +31,9 @@
   .Projects a {
     color: #0adc38;
     text-decoration: none;
-    margin-right: auto;
+    justify-content: center;
     display: inline-block;
     font-size: larger;
-    padding-bottom: 10px;
     margin-top: 15px;
 
   }
@@ -43,3 +41,17 @@
   .Projects a:hover {
     color: rgb(255, 255, 255);
   }
+  .try-button {
+  margin-left: 20px;  
+  border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #141414;
+	background: #ffffff;
+	box-shadow: 0 3px 20px 0 #0000003b;
+  }
+
+  .try-button:hover {
+  cursor: pointer;
+    }
