@@ -5,6 +5,7 @@ import FrontEnd from './front-end-project';
 import FinalProject from './final-group-project';
 import ToDoListApp from './To-Do-List';
 import Calculator from './Calculator';
+import WeatherApp from './WeatherApp';
 
 const Projects = () => {
   return (
@@ -14,6 +15,7 @@ const Projects = () => {
   <ToDoListApp/>
   <FinalProject/>
   <Calculator/>
+  <WeatherApp/>
   </div>
   )
 };
